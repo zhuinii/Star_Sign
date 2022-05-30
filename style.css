@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&display=swap');
+*{
+  //border: solid 2px red;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size:18px;
+  margin:0px;
+}
+a{
+  font-family: 'Oswald', sans-serif;
+}
+.btnWebsite{
+  background-color:#5b6c7d;
+  transition:0.5s;
+}
+.btnWebsite:hover{
+  background-color:#f5d558;
+}
+
+section{
+  padding-top: 80px;
+  background-color:#f0f0f0;
+  color:#808080;
+  border-radius:5%;
+  width:90%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align:center;
+}
+.navbar-brand{
+  font-family: 'Black Han Sans', sans-serif
+}
+h1,h2{
+  font-family: 'Black Han Sans', sans-serif;
+  font-weight:bold;
+}
+h3{
+  color:initial;
+  text-decoration:initial;
+  font-family: 'Lobster', cursive;
+  font-family: 'Permanent Marker', cursive;
+}
+section#s1{
+  background-color:#d63838;
+  color:#e6e6e6;
+}
+section#s2{
+  background-color:#f7eb7c;
+  color:#4d2703;
+}
+section#s3{
+  background-color:#008080;
+  color:#e6e6e6;
+}
+section#s4{
+  background-color:#B0E0E6;
+  color:#39484a;
+}
+section#s5{
+  background-color:#FFD700;
+  color:#4d2703;
+}
+section#s6{
+  background-color:#769cb3;
+  color:#d6f0ff;
+}
+section#s7{
+  background-color:#E0B0FF;
+  color:#5f357a;
+}
+section#s8{
+  background-color:#673147;
+  color:#ffb8d5;
+}
+section#s9{
+  background-color:#F28500;
+  color:#ffe3c2;
+}
+section#s10{
+  background-color:#BEBEBE;
+  color:#2b2b2b;
+}
+section#s11{
+  background-color:#191970;
+  color:#dedeff;
+}
+section#s12{
+  background-color:#FFC0CB;
+  color:#612730;
+}
+.toTop-arrow {
+	width: 3rem;
+	height: 3rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.6;
+	background: #000;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 25px;
+	height: 6px;
+	border-radius: 3px;
+	background: #f90;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.42rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.42rem;
+}
+.toTop-arrow:focus {outline: none;}
